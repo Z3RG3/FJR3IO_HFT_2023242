@@ -1,0 +1,4 @@
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\FJR3IO_HFT_2023242.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\FJR3IO_HFT_2023242.Client.AssemblyInfoInputs.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\FJR3IO_HFT_2023242.Client.AssemblyInfo.cs
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\FJR3IO_HFT_2023242.Client.csproj.CoreCompileInputs.cache

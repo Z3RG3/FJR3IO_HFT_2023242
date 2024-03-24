@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FJR3IO_HFT_2023242.Client/1.0.0": {
+        "runtime": {
+          "FJR3IO_HFT_2023242.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FJR3IO_HFT_2023242.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

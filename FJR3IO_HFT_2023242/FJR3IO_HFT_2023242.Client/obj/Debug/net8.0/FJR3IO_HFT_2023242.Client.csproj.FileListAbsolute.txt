@@ -1,0 +1,14 @@
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net8.0\FJR3IO_HFT_2023242.Client.exe
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net8.0\FJR3IO_HFT_2023242.Client.deps.json
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net8.0\FJR3IO_HFT_2023242.Client.runtimeconfig.json
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net8.0\FJR3IO_HFT_2023242.Client.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net8.0\FJR3IO_HFT_2023242.Client.pdb
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.AssemblyInfoInputs.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.AssemblyInfo.cs
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.csproj.CoreCompileInputs.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\refint\FJR3IO_HFT_2023242.Client.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.pdb
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\FJR3IO_HFT_2023242.Client.genruntimeconfig.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net8.0\ref\FJR3IO_HFT_2023242.Client.dll
