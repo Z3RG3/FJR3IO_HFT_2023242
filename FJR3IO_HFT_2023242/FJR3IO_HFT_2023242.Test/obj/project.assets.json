@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "FJR3IO_HFT_2023242.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FJR3IO_HFT_2023242.Models": "1.0.0",
+          "FJR3IO_HFT_2023242.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Logic.dll": {}
+        }
+      },
+      "FJR3IO_HFT_2023242.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Models.dll": {}
+        }
+      },
+      "FJR3IO_HFT_2023242.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FJR3IO_HFT_2023242.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FJR3IO_HFT_2023242.Logic/1.0.0": {
+      "type": "project",
+      "path": "../FJR3IO_HFT_2023242.Logic/FJR3IO_HFT_2023242.Logic.csproj",
+      "msbuildProject": "../FJR3IO_HFT_2023242.Logic/FJR3IO_HFT_2023242.Logic.csproj"
+    },
+    "FJR3IO_HFT_2023242.Models/1.0.0": {
+      "type": "project",
+      "path": "../FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj",
+      "msbuildProject": "../FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj"
+    },
+    "FJR3IO_HFT_2023242.Repository/1.0.0": {
+      "type": "project",
+      "path": "../FJR3IO_HFT_2023242.Repository/FJR3IO_HFT_2023242.Repository.csproj",
+      "msbuildProject": "../FJR3IO_HFT_2023242.Repository/FJR3IO_HFT_2023242.Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "FJR3IO_HFT_2023242.Logic >= 1.0.0",
+      "FJR3IO_HFT_2023242.Models >= 1.0.0",
+      "FJR3IO_HFT_2023242.Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\z3rg3\\.nuget\\packages\\": {}
@@ -33,7 +91,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj"
+            },
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
+            },
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

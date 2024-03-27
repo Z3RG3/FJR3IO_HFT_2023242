@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "FJR3IO_HFT_2023242.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FJR3IO_HFT_2023242.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FJR3IO_HFT_2023242.Models/1.0.0": {
+      "type": "project",
+      "path": "../FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj",
+      "msbuildProject": "../FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "FJR3IO_HFT_2023242.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\z3rg3\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
