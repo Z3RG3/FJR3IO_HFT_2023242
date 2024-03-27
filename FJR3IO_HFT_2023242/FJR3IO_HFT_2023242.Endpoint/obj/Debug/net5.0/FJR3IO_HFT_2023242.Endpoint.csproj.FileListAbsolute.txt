@@ -1,0 +1,6 @@
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Endpoint\obj\Debug\net5.0\FJR3IO_HFT_2023242.Endpoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Endpoint\obj\Debug\net5.0\FJR3IO_HFT_2023242.Endpoint.AssemblyInfoInputs.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Endpoint\obj\Debug\net5.0\FJR3IO_HFT_2023242.Endpoint.AssemblyInfo.cs
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Endpoint\obj\Debug\net5.0\FJR3IO_HFT_2023242.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Endpoint\obj\Debug\net5.0\FJR3IO_HFT_2023242.Endpoint.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Endpoint\obj\Debug\net5.0\FJR3IO_HFT_2023242.Endpoint.sourcelink.json

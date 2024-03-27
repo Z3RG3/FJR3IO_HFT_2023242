@@ -9,3 +9,4 @@ C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\refint\FJR3IO_HFT_2023242.Repository.dll
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_HFT_2023242.Repository.pdb
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\ref\FJR3IO_HFT_2023242.Repository.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_HFT_2023242.Repository.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FJR3IO_HFT_2023242.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a924da23e2c3f14071e49cf1688cd02d3b6494c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FJR3IO_HFT_2023242.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FJR3IO_HFT_2023242.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
