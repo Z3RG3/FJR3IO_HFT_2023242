@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{880A1A30-4D84-4CED-9355-9DB1233012E7}|https">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FJR3IO_HFT_2023242">
+            <Node name="Backend" expanded="True">
+              <Node name="FJR3IO_HFT_2023242.Endpoint" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Backend.FJR3IO__HFT__2023242.Endpoint PreferredExecutionTarget="/Applications/Brave Browser.app" />
+</Properties>
