@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/UGCw1+T9htVu8DKZYRzDVUUDkPJTGNUhB3QhGUv3lC8Ht4nrEvuR/1HltP64vyc3YjGcxG3KDm1pRMhDm3+A==",
+  "dgSpecHash": "xF2ktcNEE9s8SuF2Di/oOAtm9ZFV70BbPkaxnTE65uMpcamI7uJwYxcF/i0AwUIPfETRBnEaIaFQC0xn5t8TDA==",
   "success": true,
-  "projectFilePath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Logic/FJR3IO_HFT_2023242.Logic.csproj",
+  "projectFilePath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
   "expectedPackageFiles": [
-    "/Users/z3rg3/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/z3rg3/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\z3rg3\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\z3rg3\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\z3rg3\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

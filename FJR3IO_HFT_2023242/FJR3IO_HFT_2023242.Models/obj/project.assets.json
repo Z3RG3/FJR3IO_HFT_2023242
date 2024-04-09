@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/z3rg3/.nuget/packages/": {}
+    "C:\\Users\\z3rg3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj",
+      "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj",
       "projectName": "FJR3IO_HFT_2023242.Models",
-      "projectPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj",
-      "packagesPath": "/Users/z3rg3/.nuget/packages/",
-      "outputPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Models/obj/",
+      "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj",
+      "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/z3rg3/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -62,6 +69,10 @@
           {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -69,7 +80,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

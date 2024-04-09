@@ -66,38 +66,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/z3rg3/.nuget/packages/": {}
+    "C:\\Users\\z3rg3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Endpoint/FJR3IO_HFT_2023242.Endpoint.csproj",
+      "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\FJR3IO_HFT_2023242.Endpoint.csproj",
       "projectName": "FJR3IO_HFT_2023242.Endpoint",
-      "projectPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Endpoint/FJR3IO_HFT_2023242.Endpoint.csproj",
-      "packagesPath": "/Users/z3rg3/.nuget/packages/",
-      "outputPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Endpoint/obj/",
+      "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\FJR3IO_HFT_2023242.Endpoint.csproj",
+      "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/z3rg3/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Logic/FJR3IO_HFT_2023242.Logic.csproj": {
-              "projectPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Logic/FJR3IO_HFT_2023242.Logic.csproj"
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj"
             },
-            "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj": {
-              "projectPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Models/FJR3IO_HFT_2023242.Models.csproj"
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
             },
-            "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Repository/FJR3IO_HFT_2023242.Repository.csproj": {
-              "projectPath": "/Users/z3rg3/RiderProjects/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242/FJR3IO_HFT_2023242.Repository/FJR3IO_HFT_2023242.Repository.csproj"
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj"
             }
           }
         }
@@ -106,6 +108,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -128,11 +135,15 @@
             "version": "[5.0.0, 5.0.0]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[5.0.17, 5.0.17]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[5.0.0, 5.0.0]"
           }
         ],
@@ -144,7 +155,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
