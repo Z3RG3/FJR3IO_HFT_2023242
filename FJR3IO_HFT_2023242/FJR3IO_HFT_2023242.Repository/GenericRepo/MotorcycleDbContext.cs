@@ -2,6 +2,7 @@
 using System.Reflection.Emit;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using FJR3IO_HFT_2023242.Models;
 
 namespace FJR3IO_HFT_2023242.Repository
 {
@@ -13,7 +14,7 @@ namespace FJR3IO_HFT_2023242.Repository
 
         public MotorcycleDbContext()
         {
-            this.Database.EnsureCreated();
+            Database.EnsureCreated();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
@@ -41,7 +42,7 @@ namespace FJR3IO_HFT_2023242.Repository
                 .OnDelete(DeleteBehavior.Cascade));
 
 
-
+            // 1MotorcycleID #2Model #3ManufacturingYear #4ManufacturerID #5GarageID
             modelBuilder.Entity<Motorcycle>().HasData(new Motorcycle[]
             {
 
@@ -50,14 +51,14 @@ namespace FJR3IO_HFT_2023242.Repository
                 new Motorcycle("3#Yamaha YZF-R1#2020#3#3"),
                 new Motorcycle("4#Honda CBR1000RR#2021#4#4"),
                 new Motorcycle("5#Suzuki GSX-R1000#2019#5#5"),
-                new Motorcycle("6#Kawasaki Ninja ZX-10R#2022#3#6"),
-                new Motorcycle("7#Triumph Bonneville#1961#7#7"),
-                new Motorcycle("8#Yamaha WR-250X#2009#3#3")
+                new Motorcycle("6#Kawasaki Ninja ZX-10R#2022#3#4"),
+                new Motorcycle("7#Triumph Bonneville#1961#7#5"),
+                new Motorcycle("8#Yamaha WR-250X#2009#3#1")
 
             });
 
-             modelBuilder.Entity<Manufacturer>().HasData(new Manufacturer[]
-             {
+            modelBuilder.Entity<Manufacturer>().HasData(new Manufacturer[]
+            {
 
                 new Manufacturer("1#Yamaha"),
                 new Manufacturer("2#Ducati"),
@@ -67,16 +68,16 @@ namespace FJR3IO_HFT_2023242.Repository
                 new Manufacturer("6#Harley-Davidson"),
                 new Manufacturer("7#Triumph")
 
-             });
+            });
 
-             modelBuilder.Entity<Garage>().HasData(new Garage[]
-             {
+            modelBuilder.Entity<Garage>().HasData(new Garage[]
+            {
                 new Garage("1#Joe's Motorcycles"),
                 new Garage("2#Fast Bikes Garage"),
                 new Garage("3#Speedy's Motorcycle Shop"),
                 new Garage("4#Rider's Paradise"),
                 new Garage("5#Two Wheels Good")
-             });
+            });
 
         }
     }
