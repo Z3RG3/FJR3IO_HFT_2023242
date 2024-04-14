@@ -1,12 +1,160 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.models\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|solutionrelative:fjr3io_hft_2023242.models\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|solutionrelative:fjr3io_hft_2023242.models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.models\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|solutionrelative:fjr3io_hft_2023242.models\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E009267-83EF-4AE6-B62A-16C29ADF1700}|FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.logic\\fjr3io_hft_2023242.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5E009267-83EF-4AE6-B62A-16C29ADF1700}|FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj|solutionrelative:fjr3io_hft_2023242.logic\\fjr3io_hft_2023242.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.repository\\motorcycledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|solutionrelative:fjr3io_hft_2023242.repository\\motorcycledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.repository\\fjr3io_hft_2023242.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|solutionrelative:fjr3io_hft_2023242.repository\\fjr3io_hft_2023242.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E009267-83EF-4AE6-B62A-16C29ADF1700}|FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.logic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E009267-83EF-4AE6-B62A-16C29ADF1700}|FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj|solutionrelative:fjr3io_hft_2023242.logic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F15471-2F13-4FEF-B0A4-6E2F4943C7C5}|FJR3IO_HFT_2023242.Client\\FJR3IO_HFT_2023242.Client.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F15471-2F13-4FEF-B0A4-6E2F4943C7C5}|FJR3IO_HFT_2023242.Client\\FJR3IO_HFT_2023242.Client.csproj|solutionrelative:fjr3io_hft_2023242.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Garage.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Garage.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Models\\Garage.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Garage.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Models\\Garage.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:51:21.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Models\\Manufacturer.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Manufacturer.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Models\\Manufacturer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:49:43.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Models\\Motorcycle.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Motorcycle.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Models\\Motorcycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:38:02.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FJR3IO_HFT_2023242.Repository",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-14T12:20:41.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MotorcycleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\MotorcycleDbContext.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\MotorcycleDbContext.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\MotorcycleDbContext.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\MotorcycleDbContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAiwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:19:40.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FJR3IO_HFT_2023242.Logic",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-14T12:19:22.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\Class1.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\Class1.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\Class1.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:18:33.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\Program.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\Program.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:11:11.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
