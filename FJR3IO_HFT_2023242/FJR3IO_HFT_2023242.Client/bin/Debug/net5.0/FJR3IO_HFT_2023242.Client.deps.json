@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "FJR3IO_HFT_2023242.Client/1.0.0": {
+        "dependencies": {
+          "FJR3IO_HFT_2023242.Models": "1.0.0"
+        },
         "runtime": {
           "FJR3IO_HFT_2023242.Client.dll": {}
+        }
+      },
+      "FJR3IO_HFT_2023242.Models/1.0.0": {
+        "runtime": {
+          "FJR3IO_HFT_2023242.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FJR3IO_HFT_2023242.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FJR3IO_HFT_2023242.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

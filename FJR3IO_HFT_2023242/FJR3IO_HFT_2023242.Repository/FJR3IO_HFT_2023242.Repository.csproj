@@ -22,8 +22,14 @@
 
 	
 	<ItemGroup>
+		<None Remove="Interfaces\" />
+		<None Remove="GenericRepo\" />
+		<None Remove="ModelRepositories\" />
+	</ItemGroup>
+	<ItemGroup>
 		<Folder Include="Interfaces\" />
 		<Folder Include="GenericRepo\" />
+		<Folder Include="ModelRepositories\" />
 	</ItemGroup>
 
 </Project>

@@ -10,3 +10,10 @@ C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_HFT_2023242.Repository.pdb
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\ref\FJR3IO_HFT_2023242.Repository.dll
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_HFT_2023242.Repository.sourcelink.json
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\bin\Debug\net5.0\FJR3IO_HFT_2023242.Repository.runtimeconfig.json
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\bin\Debug\net5.0\FJR3IO_HFT_2023242.Repository.runtimeconfig.dev.json
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\bin\Debug\net5.0\FJR3IO_HFT_2023242.Models.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\bin\Debug\net5.0\FJR3IO_HFT_2023242.Models.pdb
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_HFT_2023242.Repository.csproj.AssemblyReference.cache
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_H.D57C67D3.Up2Date
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Repository\obj\Debug\net5.0\FJR3IO_HFT_2023242.Repository.genruntimeconfig.cache

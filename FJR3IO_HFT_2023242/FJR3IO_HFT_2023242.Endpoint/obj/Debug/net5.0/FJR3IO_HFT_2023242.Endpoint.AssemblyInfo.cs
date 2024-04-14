@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FJR3IO_HFT_2023242.Endpoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e490c750d59c93f7ba80bc1ee3ad796e19015fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e6e25cc5b75e9923a61cbf2e1e7ed9971487544")]
 [assembly: System.Reflection.AssemblyProductAttribute("FJR3IO_HFT_2023242.Endpoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FJR3IO_HFT_2023242.Endpoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
