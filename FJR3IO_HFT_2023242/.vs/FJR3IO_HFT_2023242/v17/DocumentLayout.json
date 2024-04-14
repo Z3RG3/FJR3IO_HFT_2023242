@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.repository\\modelrepositories\\manufacturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|solutionrelative:fjr3io_hft_2023242.repository\\modelrepositories\\manufacturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E009267-83EF-4AE6-B62A-16C29ADF1700}|FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.logic\\classeslogic\\garagelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E009267-83EF-4AE6-B62A-16C29ADF1700}|FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj|solutionrelative:fjr3io_hft_2023242.logic\\classeslogic\\garagelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|solutionrelative:fjr3io_hft_2023242.repository\\modelrepositories\\garagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.repository\\modelrepositories\\manufacturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BC50371-85E1-480F-94C0-8872CFAC7D16}|FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj|solutionrelative:fjr3io_hft_2023242.repository\\modelrepositories\\manufacturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|c:\\users\\z3rg3\\documents\\github\\fjr3io_hft_2023242\\fjr3io_hft_2023242\\fjr3io_hft_2023242.models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31F3A02E-31AF-428C-866D-9CB4E58EAF36}|FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj|solutionrelative:fjr3io_hft_2023242.models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,24 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
-              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
-              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
-              "RelativeToolTip": "FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:47:58.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\Program.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Endpoint\\Program.cs",
@@ -115,12 +102,11 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Endpoint\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:41:35.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:41:35.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GarageLogic.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\ClassesLogic\\GarageLogic.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\ClassesLogic\\GarageLogic.cs",
@@ -133,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IMotorcycleLogic.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IMotorcycleLogic.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IMotorcycleLogic.cs",
@@ -141,12 +127,11 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IMotorcycleLogic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:26:57.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:26:57.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IManufacturerLogic.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IManufacturerLogic.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IManufacturerLogic.cs",
@@ -154,12 +139,11 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IManufacturerLogic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:26:41.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:26:41.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MotorcycleRepository.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\ModelRepositories\\MotorcycleRepository.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\MotorcycleRepository.cs",
@@ -167,12 +151,11 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\MotorcycleRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:16:06.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:16:06.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Garage.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\Garage.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Models\\Garage.cs",
@@ -180,25 +163,23 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Models\\Garage.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:51:21.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:51:21.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FJR3IO_HFT_2023242.Endpoint",
+              "DocumentIndex": 5,
+              "Title": "FJR3IO_HFT_2023242.Endpoint.csproj",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\FJR3IO_HFT_2023242.Endpoint.csproj",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Endpoint\\FJR3IO_HFT_2023242.Endpoint.csproj",
               "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\FJR3IO_HFT_2023242.Endpoint.csproj",
               "RelativeToolTip": "FJR3IO_HFT_2023242.Endpoint\\FJR3IO_HFT_2023242.Endpoint.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-14T13:46:04.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:46:04.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FJR3IO_HFT_2023242.Repository.csproj",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
@@ -206,12 +187,36 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-14T12:20:41.695Z",
+              "WhenOpened": "2024-04-14T12:20:41.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManufacturerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T13:16:26.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
+              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
+              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
+              "RelativeToolTip": "FJR3IO_HFT_2023242.Endpoint\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T13:47:58.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ManufacturerLogic.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\ClassesLogic\\ManufacturerLogic.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\ClassesLogic\\ManufacturerLogic.cs",
@@ -219,12 +224,11 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\ClassesLogic\\ManufacturerLogic.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAYwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:31:44.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:31:44.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MotorcycleLogic.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\ClassesLogic\\MotorcycleLogic.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\ClassesLogic\\MotorcycleLogic.cs",
@@ -232,12 +236,11 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\ClassesLogic\\MotorcycleLogic.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwCcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:31:59.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:31:59.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MotorcycleDbContext.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\GenericRepo\\MotorcycleDbContext.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\GenericRepo\\MotorcycleDbContext.cs",
@@ -245,8 +248,7 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\GenericRepo\\MotorcycleDbContext.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAiwFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:19:40.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:19:40.304Z"
             },
             {
               "$type": "Document",
@@ -274,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GarageRepository.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\ModelRepositories\\GarageRepository.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\GarageRepository.cs",
@@ -310,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IGarageLogic.cs",
               "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IGarageLogic.cs",
               "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IGarageLogic.cs",
@@ -318,20 +320,7 @@
               "RelativeToolTip": "FJR3IO_HFT_2023242.Logic\\InterfacesLogic\\IGarageLogic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:18:33.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ManufacturerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
-              "RelativeDocumentMoniker": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
-              "ToolTip": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
-              "RelativeToolTip": "FJR3IO_HFT_2023242.Repository\\ModelRepositories\\ManufacturerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:16:26.654Z"
+              "WhenOpened": "2024-04-14T12:18:33.531Z"
             },
             {
               "$type": "Document",
