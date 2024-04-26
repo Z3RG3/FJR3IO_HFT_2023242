@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj": {}
+    "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj": {
+    "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
         "projectName": "FJR3IO_HFT_2023242.Logic",
-        "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
-        "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\obj\\",
+        "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj",
+        "packagesPath": "C:\\Users\\jnssz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jnssz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
-                "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
+              "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+                "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
               },
-              "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
-                "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj"
+              "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
+                "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj"
               }
             }
           }
@@ -41,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -62,40 +57,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+    "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj",
+        "projectUniqueName": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj",
         "projectName": "FJR3IO_HFT_2023242.Models",
-        "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj",
-        "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\obj\\",
+        "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj",
+        "packagesPath": "C:\\Users\\jnssz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jnssz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,11 +96,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -136,40 +112,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
+    "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
         "projectName": "FJR3IO_HFT_2023242.Repository",
-        "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
-        "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\obj\\",
+        "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj",
+        "packagesPath": "C:\\Users\\jnssz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jnssz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -183,8 +145,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
-                "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
+              "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+                "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
               }
             }
           }
@@ -193,11 +155,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -238,40 +195,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj": {
+    "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj",
+        "projectUniqueName": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj",
         "projectName": "FJR3IO_HFT_2023242.Test",
-        "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj",
-        "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\obj\\",
+        "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\FJR3IO_HFT_2023242.Test.csproj",
+        "packagesPath": "C:\\Users\\jnssz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jnssz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,14 +228,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj": {
-                "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj"
+              "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj": {
+                "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Logic\\FJR3IO_HFT_2023242.Logic.csproj"
               },
-              "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
-                "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
+              "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+                "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
               },
-              "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
-                "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj"
+              "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj": {
+                "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Repository\\FJR3IO_HFT_2023242.Repository.csproj"
               }
             }
           }
@@ -301,11 +244,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -322,26 +260,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
