@@ -21,7 +21,7 @@ namespace FJR3IO_HFT_2023242.Endpoint.Controllers
         [HttpGet("{name}")]
         public int GetMotorcycleNumberByManufacturerStat(string name)
         {
-            return this.logic.GetMotorcycleNumberByManufacturer(name);
+            return this.logic.GetMotorcycleNumberByManufacturer(name); 
         }
 
         [HttpGet("{year}")]
