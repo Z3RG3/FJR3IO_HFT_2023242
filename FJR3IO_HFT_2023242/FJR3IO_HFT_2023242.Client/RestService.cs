@@ -1,40 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace FJR3IO_HFT_2023242.Client
 {
-    public class RestService
+    class RestService
     {
-        private readonly HttpClient client;
+        HttpClient client;
 
-        public RestService(string baseUrl, string pingableEndpoint = "swagger")
+        public RestService(string baseurl, string pingableEndpoint = "swagger")
         {
             bool isOk = false;
             do
             {
-                isOk = Ping(baseUrl + pingableEndpoint);
-            } while (!isOk);
-
-            client = new HttpClient
-            {
-                BaseAddress = new Uri(baseUrl)
-            };
-
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                isOk = Ping(baseurl + pingableEndpoint);
+            } while (isOk == false);
+            Init(baseurl);
         }
 
         private bool Ping(string url)
         {
             try
             {
-                using (var httpClient = new HttpClient())
-                {
-                    var response = httpClient.GetAsync(url).GetAwaiter().GetResult();
-                    return response.IsSuccessStatusCode;
-                }
+                WebClient wc = new WebClient();
+                wc.DownloadData(url);
+                return true;
             }
             catch
             {
@@ -42,90 +36,121 @@ namespace FJR3IO_HFT_2023242.Client
             }
         }
 
-        public async Task<List<T>> Get<T>(string endpoint)
+        private void Init(string baseurl)
         {
-            var items = new List<T>();
-            var response = await client.GetAsync(endpoint);
+            client = new HttpClient();
+            client.BaseAddress = new Uri(baseurl);
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
+                ("application/json"));
+            try
+            {
+                client.GetAsync("").GetAwaiter().GetResult();
+            }
+            catch (HttpRequestException)
+            {
+                throw new ArgumentException("Endpoint is not available!");
+            }
+
+        }
+
+        public List<T> Get<T>(string endpoint)
+        {
+            List<T> items = new List<T>();
+            HttpResponseMessage response = client.GetAsync(endpoint).GetAwaiter().GetResult();
             if (response.IsSuccessStatusCode)
             {
-                items = await response.Content.ReadAsAsync<List<T>>();
+                items = response.Content.ReadAsAsync<List<T>>().GetAwaiter().GetResult();
             }
             else
             {
-                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                var error = response.Content.ReadAsAsync<RestExceptionInfo>().GetAwaiter().GetResult();
                 throw new ArgumentException(error.Msg);
             }
             return items;
         }
 
-        public async Task<T> GetSingle<T>(string endpoint)
+        public T GetSingle<T>(string endpoint)
         {
-            var item = default(T);
-            var response = await client.GetAsync(endpoint);
+            T item = default(T);
+            HttpResponseMessage response = client.GetAsync(endpoint).GetAwaiter().GetResult();
             if (response.IsSuccessStatusCode)
             {
-                item = await response.Content.ReadAsAsync<T>();
+                item = response.Content.ReadAsAsync<T>().GetAwaiter().GetResult();
             }
             else
             {
-                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                var error = response.Content.ReadAsAsync<RestExceptionInfo>().GetAwaiter().GetResult();
                 throw new ArgumentException(error.Msg);
             }
             return item;
         }
 
-        public async Task<T> Get<T>(int id, string endpoint)
+        public T Get<T>(int id, string endpoint)
         {
-            var item = default(T);
-            var response = await client.GetAsync(endpoint + "/" + id.ToString());
+            T item = default(T);
+            HttpResponseMessage response = client.GetAsync(endpoint + "/" + id.ToString()).GetAwaiter().GetResult();
             if (response.IsSuccessStatusCode)
             {
-                item = await response.Content.ReadAsAsync<T>();
+                item = response.Content.ReadAsAsync<T>().GetAwaiter().GetResult();
             }
             else
             {
-                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                var error = response.Content.ReadAsAsync<RestExceptionInfo>().GetAwaiter().GetResult();
                 throw new ArgumentException(error.Msg);
             }
             return item;
         }
 
-        public async Task Post<T>(T item, string endpoint)
+        public void Post<T>(T item, string endpoint)
         {
-            var response = await client.PostAsJsonAsync(endpoint, item);
+            HttpResponseMessage response =
+                client.PostAsJsonAsync(endpoint, item).GetAwaiter().GetResult();
+
             if (!response.IsSuccessStatusCode)
             {
-                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                var error = response.Content.ReadAsAsync<RestExceptionInfo>().GetAwaiter().GetResult();
                 throw new ArgumentException(error.Msg);
             }
             response.EnsureSuccessStatusCode();
         }
 
-        public async Task Delete(int id, string endpoint)
+        public void Delete(int id, string endpoint)
         {
-            var response = await client.DeleteAsync(endpoint + "/" + id.ToString());
+            HttpResponseMessage response =
+                client.DeleteAsync(endpoint + "/" + id.ToString()).GetAwaiter().GetResult();
+
             if (!response.IsSuccessStatusCode)
             {
-                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                var error = response.Content.ReadAsAsync<RestExceptionInfo>().GetAwaiter().GetResult();
                 throw new ArgumentException(error.Msg);
             }
+
             response.EnsureSuccessStatusCode();
         }
 
-        public async Task Put<T>(T item, string endpoint)
+        public void Put<T>(T item, string endpoint)
         {
-            var response = await client.PutAsJsonAsync(endpoint, item);
+            HttpResponseMessage response =
+                client.PutAsJsonAsync(endpoint, item).GetAwaiter().GetResult();
+
             if (!response.IsSuccessStatusCode)
             {
-                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                var error = response.Content.ReadAsAsync<RestExceptionInfo>().GetAwaiter().GetResult();
                 throw new ArgumentException(error.Msg);
             }
+
             response.EnsureSuccessStatusCode();
         }
+
     }
-
     public class RestExceptionInfo
     {
+        public RestExceptionInfo()
+        {
+
+        }
         public string Msg { get; set; }
     }
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using ConsoleTools;
-using FJR3IO_HFT_2023242.Client;
 using FJR3IO_HFT_2023242.Models;
 
 namespace FJR3IO_HFT_2023242.Client
@@ -39,9 +38,9 @@ namespace FJR3IO_HFT_2023242.Client
                 Console.Write("Enter manufacturer ID to update: ");
                 int id = int.Parse(Console.ReadLine());
                 Manufacturer manufacturer = rest.Get<Manufacturer>(id, "api/manufacturer");
-                Console.Write($"[UPDATE] Enter new manufacturer name (old: {manufacturer.Name}): ");
+                Console.Write($"[UPDATE] Enter new manufacturer name (old: {manufacturer.ManufacturerName}): ");
                 string name = Console.ReadLine();
-                manufacturer.Name = name;
+                manufacturer.ManufacturerName = name;
                 manufacturer.ManufacturerID = id;
                 rest.Put(manufacturer, "api/manufacturer");
             }
@@ -50,9 +49,9 @@ namespace FJR3IO_HFT_2023242.Client
                 Console.Write("Enter garage ID to update: ");
                 int id = int.Parse(Console.ReadLine());
                 Garage garage = rest.Get<Garage>(id, "api/garage");
-                Console.Write($"[UPDATE] Enter new garage name (old: {garage.Name}): ");
+                Console.Write($"[UPDATE] Enter new garage name (old: {garage.GarageName}): ");
                 string name = Console.ReadLine();
-                garage.Name = name;
+                garage.GarageName = name;
                 garage.GarageID = id;
                 rest.Put(garage, "api/garage");
             }
@@ -86,7 +85,7 @@ namespace FJR3IO_HFT_2023242.Client
                 int manufacturerID = int.Parse(Console.ReadLine());
                 rest.Post(new Manufacturer()
                 {
-                    Name = name,
+                    ManufacturerName = name,
                     ManufacturerID = manufacturerID
                 }, "api/manufacturer");
             }
@@ -98,7 +97,7 @@ namespace FJR3IO_HFT_2023242.Client
                 int garageID = int.Parse(Console.ReadLine());
                 rest.Post(new Garage()
                 {
-                    Name = name,
+                    GarageName = name,
                     GarageID = garageID
                 }, "api/garage");
             }
@@ -141,7 +140,7 @@ namespace FJR3IO_HFT_2023242.Client
                 List<Manufacturer> manufacturers = rest.Get<Manufacturer>("api/manufacturer");
                 foreach (var manufacturer in manufacturers)
                 {
-                    Console.WriteLine($"[{manufacturer.ManufacturerID}] - {manufacturer.Name}");
+                    Console.WriteLine($"[{manufacturer.ManufacturerID}] - {manufacturer.ManufacturerName}");
                 }
             }
             else if (data == "Garage")
@@ -149,7 +148,7 @@ namespace FJR3IO_HFT_2023242.Client
                 List<Garage> garages = rest.Get<Garage>("api/garage");
                 foreach (var garage in garages)
                 {
-                    Console.WriteLine($"[{garage.GarageID}] - {garage.Name}");
+                    Console.WriteLine($"[{garage.GarageID}] - {garage.GarageName}");
                 }
             }
             Console.ReadLine();

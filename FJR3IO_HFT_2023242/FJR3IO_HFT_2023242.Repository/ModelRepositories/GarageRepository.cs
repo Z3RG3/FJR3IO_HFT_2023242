@@ -2,7 +2,7 @@
 using FJR3IO_HFT_2023242.Models;
 using FJR3IO_HFT_2023242.Repository;
 
-namespace GKJAHE_HFT_2023241.Repository
+namespace FJR3IO_HFT_2023242.Repository
 {
     public class GarageRepository : Repository<Garage>, IRepository<Garage>
     {

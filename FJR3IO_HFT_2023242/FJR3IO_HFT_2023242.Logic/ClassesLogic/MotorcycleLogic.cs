@@ -1,20 +1,21 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using FJR3IO_HFT_2023242.Models;
 using FJR3IO_HFT_2023242.Repository;
-
 
 namespace FJR3IO_HFT_2023242.Logic
 {
     public class MotorcycleLogic : IMotorcycleLogic
     {
-        IRepository<Motorcycle> repository;
+        private readonly IRepository<Motorcycle> repository;
 
         public MotorcycleLogic(IRepository<Motorcycle> repository)
         {
             this.repository = repository;
         }
+
+        // Existing CRUD methods
 
         public void Create(Motorcycle item)
         {
@@ -22,17 +23,17 @@ namespace FJR3IO_HFT_2023242.Logic
             {
                 throw new ArgumentException("The model of the motorcycle is empty!");
             }
-            this.repository.Create(item);
+            repository.Create(item);
         }
 
         public void Delete(int id)
         {
-            this.repository.Delete(id);
+            repository.Delete(id);
         }
 
         public Motorcycle Read(int id)
         {
-            var motorcycle = this.repository.Read(id);
+            var motorcycle = repository.Read(id);
             if (motorcycle == null)
             {
                 throw new ArgumentException("This motorcycle does not exist!");
@@ -42,52 +43,44 @@ namespace FJR3IO_HFT_2023242.Logic
 
         public IQueryable<Motorcycle> ReadAll()
         {
-            return this.repository.ReadAll();
+            return repository.ReadAll();
         }
 
         public void Update(Motorcycle item)
         {
-            this.repository.Update(item);
+            repository.Update(item);
         }
 
         // Non-CRUD methods
-        public int GetMotorcycleCountByManufacturer(string manufacturerName)
+
+        public int GetMotorcycleNumberByManufacturer(string manufacturerName)
         {
-            return this.repository
-                .ReadAll()
-                .Where(m => m.Manufacturer.ManufacturerName == manufacturerName)
-                .Count();
+            return repository.ReadAll().Count(m => m.Manufacturer.ManufacturerName == manufacturerName);
         }
 
-        public int GetMotorcycleCountByYear(int year)
+        public int GetMotorcycleNumberByYear(int year)
         {
-            return this.repository
-                .ReadAll()
-                .Where(m => m.ManufacturingYear == year)
-                .Count();
+            return repository.ReadAll().Count(m => m.ManufacturingYear == year);
         }
 
-        public IEnumerable<string> GetMotorcycleModelsByManufacturer(string manufacturerName)
+        public IEnumerable<string> GetMotorcycleTitleByManufacturer(string name)
         {
-            return this.repository
-                .ReadAll()
-                .Where(m => m.Manufacturer.ManufacturerName == manufacturerName)
+            return repository.ReadAll()
+                .Where(m => m.Manufacturer.ManufacturerName == name)
                 .Select(m => m.Model);
         }
 
-        public IEnumerable<string> GetMotorcycleModelsByGarage(string garageName)
+        public IEnumerable<string> GetMotorcycleTitleByGarageName(string garageName)
         {
-            return this.repository
-                .ReadAll()
+            return repository.ReadAll()
                 .Where(m => m.Garage.GarageName == garageName)
                 .Select(m => m.Model);
         }
 
-        public IEnumerable<string> GetGarageNamesByManufacturer(string manufacturerName)
+        public IEnumerable<string> GetGarageNameByManufacturerName(string name)
         {
-            return this.repository
-                .ReadAll()
-                .Where(m => m.Manufacturer.ManufacturerName == manufacturerName)
+            return repository.ReadAll()
+                .Where(m => m.Manufacturer.ManufacturerName == name)
                 .Select(m => m.Garage.GarageName);
         }
     }

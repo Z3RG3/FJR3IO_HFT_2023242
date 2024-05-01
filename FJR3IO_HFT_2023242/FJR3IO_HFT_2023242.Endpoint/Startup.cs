@@ -16,7 +16,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Reflection;
-using GKJAHE_HFT_2023241.Repository;
 
 namespace FJR3IO_HFT_2023242.Endpoint
 {
@@ -57,7 +56,7 @@ namespace FJR3IO_HFT_2023242.Endpoint
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GKJAHE_HFT_2023241.Endpoint v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FJR3IO_HFT_2023242.Endpoint v1"));
             }
 
             app.UseExceptionHandler(c => c.Run(async context =>

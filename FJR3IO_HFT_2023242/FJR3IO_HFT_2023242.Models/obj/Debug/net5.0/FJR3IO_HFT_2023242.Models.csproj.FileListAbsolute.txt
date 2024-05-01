@@ -10,3 +10,15 @@ C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.pdb
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\ref\FJR3IO_HFT_2023242.Models.dll
 C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.sourcelink.json
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\bin\Debug\net5.0\FJR3IO_HFT_2023242.Models.deps.json
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\bin\Debug\net5.0\FJR3IO_HFT_2023242.Models.dll
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\bin\Debug\net5.0\FJR3IO_HFT_2023242.Models.pdb
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.csproj.AssemblyReference.cache
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.AssemblyInfoInputs.cache
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.AssemblyInfo.cs
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.csproj.CoreCompileInputs.cache
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.dll
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\refint\FJR3IO_HFT_2023242.Models.dll
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\FJR3IO_HFT_2023242.Models.pdb
+C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Models\obj\Debug\net5.0\ref\FJR3IO_HFT_2023242.Models.dll
