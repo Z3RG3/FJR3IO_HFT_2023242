@@ -14,8 +14,8 @@ namespace FJR3IO_HFT_2023242.Logic
         void Delete(int id);
         int GetMotorcycleNumberByManufacturer(string name);
         int GetMotorcycleNumberByYear(int year);
-        IEnumerable<string> GetMotorcycleTitleByGarageName(string garageName);
-        IEnumerable<string> GetMotorcycleTitleByManufacturer(string name);
+        IEnumerable<string> GetMotorcycleModelByGarageName(string garageName);
+        IEnumerable<string> GetMotorcycleModelByManufacturer(string name);
         IEnumerable<string> GetGarageNameByManufacturerName(string name);
     }
 }

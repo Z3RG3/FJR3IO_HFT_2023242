@@ -21,7 +21,7 @@ namespace FJR3IO_HFT_2023242.Models
 
         public Garage()
         {
-            Motorcycles = new HashSet<Motorcycle>();
+            
         }
 
         public Garage(string line)

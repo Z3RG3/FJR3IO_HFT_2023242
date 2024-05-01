@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using FJR3IO_HFT_2023242.Models;
-using FJR3IO_HFT_2023242.Repository;
 
 namespace FJR3IO_HFT_2023242.Repository
 {

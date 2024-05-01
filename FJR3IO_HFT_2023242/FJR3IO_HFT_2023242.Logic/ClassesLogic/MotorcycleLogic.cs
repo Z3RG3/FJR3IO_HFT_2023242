@@ -15,11 +15,11 @@ namespace FJR3IO_HFT_2023242.Logic
             this.repository = repository;
         }
 
-        // Existing CRUD methods
+        // CRUD 
 
         public void Create(Motorcycle item)
         {
-            if (string.IsNullOrEmpty(item.Model))
+            if ( item.Model.Length <= 1 || string.IsNullOrEmpty(item.Model))
             {
                 throw new ArgumentException("The model of the motorcycle is empty!");
             }
@@ -51,35 +51,43 @@ namespace FJR3IO_HFT_2023242.Logic
             repository.Update(item);
         }
 
-        // Non-CRUD methods
+        // Non-CRUD 
 
         public int GetMotorcycleNumberByManufacturer(string manufacturerName)
         {
-            return repository.ReadAll().Count(m => m.Manufacturer.ManufacturerName == manufacturerName);
+            return this.repository
+                .ReadAll()
+                .Where(t => t.Manufacturer.ManufacturerName == manufacturerName)
+                .Count();
         }
 
         public int GetMotorcycleNumberByYear(int year)
         {
-            return repository.ReadAll().Count(m => m.ManufacturingYear == year);
+            return this.repository
+                .ReadAll()
+                .Count(m => m.ManufacturingYear == year);
         }
 
-        public IEnumerable<string> GetMotorcycleTitleByManufacturer(string name)
+        public IEnumerable<string> GetMotorcycleModelByManufacturer(string name)
         {
-            return repository.ReadAll()
+            return this.repository
+                .ReadAll()
                 .Where(m => m.Manufacturer.ManufacturerName == name)
-                .Select(m => m.Model);
+                .Select(b => b.Model);
         }
 
-        public IEnumerable<string> GetMotorcycleTitleByGarageName(string garageName)
+        public IEnumerable<string> GetMotorcycleModelByGarageName(string garageName)
         {
-            return repository.ReadAll()
+            return this.repository
+                .ReadAll()
                 .Where(m => m.Garage.GarageName == garageName)
                 .Select(m => m.Model);
         }
 
         public IEnumerable<string> GetGarageNameByManufacturerName(string name)
         {
-            return repository.ReadAll()
+            return this.repository
+                .ReadAll()
                 .Where(m => m.Manufacturer.ManufacturerName == name)
                 .Select(m => m.Garage.GarageName);
         }

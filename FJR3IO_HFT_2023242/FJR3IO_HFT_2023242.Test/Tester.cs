@@ -23,17 +23,17 @@ namespace FJR3IO_HFT_2023242.Test
             Manufacturer fakeManufacturer1 = new Manufacturer()
             {
                 ManufacturerID = 1,
-                ManufacturerName = "TesztGyártó"
+                ManufacturerName = "ManufacturerTest1"
             };
             Manufacturer fakeManufacturer2 = new Manufacturer()
             {
                 ManufacturerID = 2,
-                ManufacturerName = "TesztGyártó2"
+                ManufacturerName = "ManufacturerTest2"
             };
             Manufacturer fakeManufacturer3 = new Manufacturer()
             {
                 ManufacturerID = 3,
-                ManufacturerName = "TesztGyártó3"
+                ManufacturerName = "ManufacturerTest3"
             };
             Manufacturer fakeManufacturer4 = new Manufacturer()
             {
@@ -128,80 +128,90 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 1,
             Model = "MotorcycleTest1",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer1,
-            Garage = fakeGarage2
+            ManufacturerID = 1,
+            Garage = fakeGarage2,
+            GarageID = 2
         },
         new Motorcycle()
         {
             MotorcycleID = 2,
             Model = "MotorcycleTest2",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer3,
-            Garage = fakeGarage1
+            ManufacturerID = 3,
+            Garage = fakeGarage1,
+            GarageID = 1
         },
         new Motorcycle()
         {
             MotorcycleID = 3,
             Model = "MotorcycleTest3",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer2,
-            Garage = fakeGarage3
+            ManufacturerID = 2,
+            Garage = fakeGarage3,
+            GarageID = 3
         },
         new Motorcycle()
         {
             MotorcycleID = 4,
             Model = "MotorcycleTest4",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer6,
-            Garage = fakeGarage4
+            ManufacturerID = 6,
+            Garage = fakeGarage4,
+            GarageID = 4
         },
         new Motorcycle()
         {
             MotorcycleID = 5,
             Model = "MotorcycleTest5",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer4,
-            Garage = fakeGarage5
+            ManufacturerID = 4,
+            Garage = fakeGarage5,
+            GarageID = 5
         },
         new Motorcycle()
         {
             MotorcycleID = 6,
             Model = "MotorcycleTest6",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer5,
-            Garage = fakeGarage8
+            ManufacturerID = 5,
+            Garage = fakeGarage8,
+            GarageID = 8
         },
         new Motorcycle()
         {
             MotorcycleID = 7,
             Model = "MotorcycleTest7",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer9,
-            Garage = fakeGarage10
+            ManufacturerID = 9,
+            Garage = fakeGarage10,
+            GarageID = 10
         },
         new Motorcycle()
         {
             MotorcycleID = 8,
             Model = "MotorcycleTest8",
             ManufacturingYear = 2022,
-            Manufacturer = fakeManufacturer8,
-            Garage = fakeGarage7
+            ManufacturerID = 8,
+            Garage = fakeGarage7,
+            GarageID = 7
         },
         new Motorcycle()
         {
             MotorcycleID = 9,
             Model = "MotorcycleTest9",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer7,
-            Garage = fakeGarage6
+            ManufacturerID = 7,
+            Garage = fakeGarage6,
+            GarageID = 6
         },
         new Motorcycle()
         {
             MotorcycleID = 10,
             Model = "MotorcycleTest10",
             ManufacturingYear = 2023,
-            Manufacturer = fakeManufacturer10,
-            Garage = fakeGarage9
+            ManufacturerID = 10,
+            Garage = fakeGarage9,
+            GarageID = 9
         }
     };
             mockMotorcycleRepository = new Mock<IRepository<Motorcycle>>();
@@ -286,6 +296,7 @@ namespace FJR3IO_HFT_2023242.Test
         public void GetMotorcycleNumberByManufacturerTest()
         {
             int sum = motorcycleLogic.GetMotorcycleNumberByManufacturer("ManufacturerTest3");
+            ;
             Assert.That(sum, Is.EqualTo(1));
         }
 
@@ -297,27 +308,27 @@ namespace FJR3IO_HFT_2023242.Test
         }
 
         [Test]
-        public void GetMotorcyclesTitleByManufacturerTest()
+        public void GetMotorcyclesModelByManufacturerTest()
         {
-            var result = motorcycleLogic.GetMotorcycleTitleByManufacturer("ManufacturerTest1");
+            var result = motorcycleLogic.GetMotorcycleModelByManufacturer("ManufacturerTest1");
 
             var expected = new List<string>()
-    {
-        "MotorcycleTest1"
-    };
+            {
+                "MotorcycleTest1"
+            };
 
             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
-        public void GetMotorcycleTitleByGarageNameTest()
+        public void GetMotorcycleModelByGarageNameTest()
         {
-            var result = motorcycleLogic.GetMotorcycleTitleByGarageName("GarageTest5");
-
+            var result = motorcycleLogic.GetMotorcycleModelByGarageName("GarageTest5");
+            ;
             var expected = new List<string>()
-    {
-        "MotorcycleTest5"
-    };
+            {
+                "MotorcycleTest5"
+            };
 
             Assert.That(result, Is.EqualTo(expected));
         }
@@ -326,11 +337,11 @@ namespace FJR3IO_HFT_2023242.Test
         public void GetGarageNameByManufacturerNameTest()
         {
             var result = motorcycleLogic.GetGarageNameByManufacturerName("ManufacturerTest1");
-
+            ;
             var expected = new List<string>()
-    {
-        "GarageTest2"
-    };
+                {
+                    "GarageTest2"
+                };
 
             Assert.That(result, Is.EqualTo(expected));
         }
