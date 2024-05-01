@@ -128,6 +128,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 1,
             Model = "MotorcycleTest1",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer1,
             ManufacturerID = 1,
             Garage = fakeGarage2,
             GarageID = 2
@@ -137,6 +138,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 2,
             Model = "MotorcycleTest2",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer3,
             ManufacturerID = 3,
             Garage = fakeGarage1,
             GarageID = 1
@@ -146,6 +148,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 3,
             Model = "MotorcycleTest3",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer2,
             ManufacturerID = 2,
             Garage = fakeGarage3,
             GarageID = 3
@@ -155,6 +158,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 4,
             Model = "MotorcycleTest4",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer6,
             ManufacturerID = 6,
             Garage = fakeGarage4,
             GarageID = 4
@@ -164,6 +168,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 5,
             Model = "MotorcycleTest5",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer4,
             ManufacturerID = 4,
             Garage = fakeGarage5,
             GarageID = 5
@@ -173,6 +178,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 6,
             Model = "MotorcycleTest6",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer5,
             ManufacturerID = 5,
             Garage = fakeGarage8,
             GarageID = 8
@@ -182,6 +188,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 7,
             Model = "MotorcycleTest7",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer9,
             ManufacturerID = 9,
             Garage = fakeGarage10,
             GarageID = 10
@@ -191,6 +198,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 8,
             Model = "MotorcycleTest8",
             ManufacturingYear = 2022,
+            Manufacturer = fakeManufacturer8,
             ManufacturerID = 8,
             Garage = fakeGarage7,
             GarageID = 7
@@ -200,6 +208,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 9,
             Model = "MotorcycleTest9",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer7,
             ManufacturerID = 7,
             Garage = fakeGarage6,
             GarageID = 6
@@ -209,6 +218,7 @@ namespace FJR3IO_HFT_2023242.Test
             MotorcycleID = 10,
             Model = "MotorcycleTest10",
             ManufacturingYear = 2023,
+            Manufacturer = fakeManufacturer10,
             ManufacturerID = 10,
             Garage = fakeGarage9,
             GarageID = 9
@@ -296,7 +306,6 @@ namespace FJR3IO_HFT_2023242.Test
         public void GetMotorcycleNumberByManufacturerTest()
         {
             int sum = motorcycleLogic.GetMotorcycleNumberByManufacturer("ManufacturerTest3");
-            ;
             Assert.That(sum, Is.EqualTo(1));
         }
 
@@ -308,10 +317,10 @@ namespace FJR3IO_HFT_2023242.Test
         }
 
         [Test]
-        public void GetMotorcyclesModelByManufacturerTest()
+        public void GetMotorcyclesModelByManufacturerIDTest() // nem fut
         {
             var result = motorcycleLogic.GetMotorcycleModelByManufacturer("ManufacturerTest1");
-
+            
             var expected = new List<string>()
             {
                 "MotorcycleTest1"
@@ -321,10 +330,9 @@ namespace FJR3IO_HFT_2023242.Test
         }
 
         [Test]
-        public void GetMotorcycleModelByGarageNameTest()
+        public void GetMotorcycleModelByGarageNameTest() // nem fut
         {
             var result = motorcycleLogic.GetMotorcycleModelByGarageName("GarageTest5");
-            ;
             var expected = new List<string>()
             {
                 "MotorcycleTest5"
@@ -337,7 +345,6 @@ namespace FJR3IO_HFT_2023242.Test
         public void GetGarageNameByManufacturerNameTest()
         {
             var result = motorcycleLogic.GetGarageNameByManufacturerName("ManufacturerTest1");
-            ;
             var expected = new List<string>()
                 {
                     "GarageTest2"

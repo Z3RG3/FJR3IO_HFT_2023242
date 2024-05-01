@@ -31,15 +31,15 @@ namespace FJR3IO_HFT_2023242.Endpoint.Controllers
         }
 
         [HttpGet("{name}")]
-        public IEnumerable<string> GetMotorcycleTitleByManufacturerStat(string name)
+        public IEnumerable<string> GetMotorcycleModelByManufacturerStat(string name)
         {
-            return this.logic.GetMotorcycleTitleByManufacturer(name);
+            return this.logic.GetMotorcycleModelByManufacturer(name);
         }
 
         [HttpGet("{garageName}")]
-        public IEnumerable<string> GetMotorcycleTitleByGarageNameStat(string garageName)
+        public IEnumerable<string> GetMotorcycleModelByGarageNameStat(string garageName)
         {
-            return this.logic.GetMotorcycleTitleByGarageName(garageName);
+            return this.logic.GetMotorcycleModelByGarageName(garageName);
         }
 
         [HttpGet("{name}")]

@@ -155,7 +155,7 @@ namespace FJR3IO_HFT_2023242.Client
         }
 
         // Non-Crud methods
-        // Ezeket ujrairni, mert nem lettek eleg jok 
+        // vegre mukodnek
 
         static void Main(string[] args)
         {

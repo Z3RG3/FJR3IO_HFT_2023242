@@ -74,6 +74,7 @@ namespace FJR3IO_HFT_2023242.Logic
                 .ReadAll()
                 .Where(m => m.Manufacturer.ManufacturerName == name)
                 .Select(b => b.Model);
+
         }
 
         public IEnumerable<string> GetMotorcycleModelByGarageName(string garageName)
