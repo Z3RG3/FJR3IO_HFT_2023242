@@ -45,7 +45,7 @@ namespace FJR3IO_HFT_2023242.Endpoint
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FJR3IO_HFT_2023242.Endpoint", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FJR3IO_HFT_2023242.Endpoint érdekes egy cím.", Version = "v1" });
             });
         }
 
