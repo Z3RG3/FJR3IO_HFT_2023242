@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "FJR3IO_HFT_2023242.Client/1.0.0": {
         "dependencies": {
-          "ConsoleMenu-simple": "2.6.1",
+          "ConsoleMenu-simple": "2.4.2",
           "FJR3IO_HFT_2023242.Models": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.7"
         },
@@ -16,14 +16,11 @@
           "FJR3IO_HFT_2023242.Client.dll": {}
         }
       },
-      "ConsoleMenu-simple/2.6.1": {
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
+      "ConsoleMenu-simple/2.4.2": {
         "runtime": {
-          "lib/netstandard1.3/ConsoleMenu.dll": {
-            "assemblyVersion": "2.6.1.0",
-            "fileVersion": "2.6.1.0"
+          "lib/net5.0/ConsoleMenu.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
           }
         }
       },
@@ -885,12 +882,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ConsoleMenu-simple/2.6.1": {
+    "ConsoleMenu-simple/2.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qUeUvd5YXM6oBwj2V59gFOQocjynpkbCkmJmso1JJNhRhI1oA+fki3+pOXxKhnlNq9dXiEyD3WV3/KhouT+8Ng==",
-      "path": "consolemenu-simple/2.6.1",
-      "hashPath": "consolemenu-simple.2.6.1.nupkg.sha512"
+      "sha512": "sha512-ptanxSOJZ7LmI3NA7bGGsLE5gh+GVjJU/62Mln96FCUp6NUJjZMjZYhtD/BZG48Yoxh9FyQqke3sk3F9ezXgJg==",
+      "path": "consolemenu-simple/2.4.2",
+      "hashPath": "consolemenu-simple.2.4.2.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "type": "package",

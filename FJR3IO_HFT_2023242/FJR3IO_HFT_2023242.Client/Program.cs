@@ -161,7 +161,7 @@ namespace FJR3IO_HFT_2023242.Client
         {
             // Menu settings
             rest = new RestService("http://localhost:22181/");
-
+          
             var motorcycleSubmenu = new ConsoleMenu(args, level: 1)
                 .Add("List", () => List("Motorcycle"))
                 .Add("Create", () => Create("Motorcycle"))
@@ -188,7 +188,7 @@ namespace FJR3IO_HFT_2023242.Client
                 .Add("Manufacturers", () => manufacturerSubmenu.Show())
                 .Add("Garages", () => garageSubmenu.Show())
                 .Add("Exit", ConsoleMenu.Close);
-            menu.Show();
+             menu.Show();
         }
     }
 }
