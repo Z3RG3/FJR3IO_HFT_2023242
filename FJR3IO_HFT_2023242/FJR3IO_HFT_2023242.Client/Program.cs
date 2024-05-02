@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Xml.Linq;
 using ConsoleTools;
 using FJR3IO_HFT_2023242.Models;
 
@@ -155,7 +157,63 @@ namespace FJR3IO_HFT_2023242.Client
         }
 
         // Non-Crud methods
-        // vegre mukodnek
+        // vegre mukodnek, csak elfelejtettem megírni őket
+        // 1
+        static void GetMotorcycleNumberByManufacturer()
+        {
+            Console.Write("Enter manufacturer name to count motorcycles: ");
+            string name = Console.ReadLine();
+            Console.Write("\nNumber of motorcycles: ");
+            var result = rest.GetSingle<int>($"/Stat/GetMotorcycleNumberByManufacturer/{name}");
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        // 2
+        static void GetMotorcycleNumberByYear()
+        {
+            Console.Write("Enter year to count motorcycles: ");
+            string year = Console.ReadLine();
+            Console.Write("\nNumber of motorcycles: ");
+            var result = rest.GetSingle<int>($"/Stat/GetMotorcycleNumberByYear/{year}");
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        // 3
+        static void GetMotorcycleModelByManufacturer()
+        {
+            Console.Write("Enter manufacturer to list motorcycles: ");
+            string name = Console.ReadLine();
+            var result = rest.Get<string>($"/Stat/GetMotorcycleModelByManufacturer/{name}");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+        }
+        // 4
+        static void GetMotorcycleModelByGarageName()
+        {
+            Console.Write("Enter garage to list motorcycles: ");
+            string garageName = Console.ReadLine();
+            var result = rest.Get<string>($"/Stat/GetMotorcycleModelByGarageName/{garageName}");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+        }
+        // 5
+        static void GetGarageNameByManufacturerName()
+        {
+            Console.Write("Enter manufacturer name to list garages: ");
+            string name = Console.ReadLine();
+            var result = rest.Get<string>($"/Stat/GetGarageNameByManufacturerName/{name}");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+        }
 
         static void Main(string[] args)
         {
@@ -181,6 +239,14 @@ namespace FJR3IO_HFT_2023242.Client
                 .Add("Create", () => Create("Garage"))
                 .Add("Delete", () => Delete("Garage"))
                 .Add("Update", () => Update("Garage"))
+                .Add("Exit", ConsoleMenu.Close);
+
+            var statMenu = new ConsoleMenu(args, level: 1)
+                .Add("GetMotorcycleNumberByManufacturer", () => GetMotorcycleNumberByManufacturer())
+                .Add("GetMotorcycleNumberByYear", () => GetMotorcycleNumberByYear())
+                .Add("GetMotorcycleModelByManufacturer", () => GetMotorcycleModelByManufacturer())
+                .Add("GetMotorcycleModelByGarageName", () => GetMotorcycleModelByGarageName())
+                .Add("GetGarageNameByManufacturerName", () => GetGarageNameByManufacturerName())
                 .Add("Exit", ConsoleMenu.Close);
 
             var menu = new ConsoleMenu(args, level: 0)
