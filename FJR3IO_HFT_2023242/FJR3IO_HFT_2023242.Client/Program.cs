@@ -253,6 +253,7 @@ namespace FJR3IO_HFT_2023242.Client
                 .Add("Motorcycles", () => motorcycleSubmenu.Show())
                 .Add("Manufacturers", () => manufacturerSubmenu.Show())
                 .Add("Garages", () => garageSubmenu.Show())
+                .Add("Stat", () => statMenu.Show())
                 .Add("Exit", ConsoleMenu.Close);
              menu.Show();
         }
