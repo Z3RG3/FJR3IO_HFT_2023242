@@ -14,30 +14,30 @@ namespace FJR3IO_HFT_2023242.Client
 
         public RestService(string baseurl, string pingableEndpoint = "swagger")
         {
-            //bool isOk = false;
-            //do
-            //{
-            //    isOk = Ping(baseurl + pingableEndpoint);
-            //} while (isOk == false);
-            if (!Ping(baseurl + pingableEndpoint))
+            bool isOk = false;
+            do
             {
-                throw new ArgumentException("Endpoint is not available!");
-            }
-            Init(baseurl);
+                isOk = Ping(baseurl + pingableEndpoint);
+            } while (isOk == false);
+            //if (!Ping(baseurl + pingableEndpoint))
+            //{
+            //    throw new ArgumentException("Endpoint is not available!");
+            //}
+            //Init(baseurl);
         }
 
         private bool Ping(string url)
         {
             try
             {
-                //WebClient wc = new WebClient();
-                //wc.DownloadData(url);
-                //return true;
-                using (var httpClient = new HttpClient())
-                {
-                    var response = httpClient.GetAsync(url).GetAwaiter().GetResult();
-                    return response.IsSuccessStatusCode;
-                }
+                WebClient wc = new WebClient();
+                wc.DownloadData(url);
+                return true;
+                //using (var httpClient = new HttpClient())
+                //{
+                //    var response = httpClient.GetAsync(url).GetAwaiter().GetResult();
+                //    return response.IsSuccessStatusCode;
+                //}
             }
             catch
             {
