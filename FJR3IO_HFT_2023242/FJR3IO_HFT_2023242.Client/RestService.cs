@@ -23,7 +23,7 @@ namespace FJR3IO_HFT_2023242.Client
             //{
             //    throw new ArgumentException("Endpoint is not available!");
             //}
-            //Init(baseurl);
+            Init(baseurl);
         }
 
         private bool Ping(string url)

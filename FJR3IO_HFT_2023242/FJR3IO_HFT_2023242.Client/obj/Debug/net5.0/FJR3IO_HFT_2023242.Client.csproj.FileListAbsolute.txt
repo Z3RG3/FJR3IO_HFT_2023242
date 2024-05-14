@@ -41,3 +41,7 @@ C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_202
 C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\FJR3IO_HFT_2023242.Client.csproj.CopyComplete
 C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\FJR3IO_HFT_2023242.Client.genruntimeconfig.cache
 C:\Users\jnssz\source\repos\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\obj\Debug\net5.0\ref\FJR3IO_HFT_2023242.Client.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net5.0\ConsoleMenu.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\z3rg3\Documents\GitHub\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242\FJR3IO_HFT_2023242.Client\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

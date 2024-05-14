@@ -164,7 +164,7 @@ namespace FJR3IO_HFT_2023242.Client
             Console.Write("Enter manufacturer name to count motorcycles: ");
             string name = Console.ReadLine();
             Console.Write("\nNumber of motorcycles: ");
-            var result = rest.GetSingle<int>($"/Stat/GetMotorcycleNumberByManufacturer/{name}");
+            var result = rest.GetSingle<string>($"/Stat/GetMotorcycleNumberByManufacturerStat/{name}");
             Console.WriteLine(result);
             Console.ReadLine();
         }
@@ -174,7 +174,7 @@ namespace FJR3IO_HFT_2023242.Client
             Console.Write("Enter year to count motorcycles: ");
             string year = Console.ReadLine();
             Console.Write("\nNumber of motorcycles: ");
-            var result = rest.GetSingle<int>($"/Stat/GetMotorcycleNumberByYear/{year}");
+            var result = rest.GetSingle<int>($"/Stat/GetMotorcycleNumberByYearStat/{year}");
             Console.WriteLine(result);
             Console.ReadLine();
         }
@@ -183,7 +183,7 @@ namespace FJR3IO_HFT_2023242.Client
         {
             Console.Write("Enter manufacturer to list motorcycles: ");
             string name = Console.ReadLine();
-            var result = rest.Get<string>($"/Stat/GetMotorcycleModelByManufacturer/{name}");
+            var result = rest.Get<string>($"/Stat/GetMotorcycleModelByManufacturerStat/{name}");
             foreach (var item in result)
             {
                 Console.WriteLine(item);
@@ -195,19 +195,20 @@ namespace FJR3IO_HFT_2023242.Client
         {
             Console.Write("Enter garage to list motorcycles: ");
             string garageName = Console.ReadLine();
-            var result = rest.Get<string>($"/Stat/GetMotorcycleModelByGarageName/{garageName}");
+            var result = rest.Get<string>($"/Stat/GetMotorcycleModelByGarageNameStat/{garageName}");
             foreach (var item in result)
             {
                 Console.WriteLine(item);
             }
             Console.ReadLine();
+            
         }
         // 5
         static void GetGarageNameByManufacturerName()
         {
             Console.Write("Enter manufacturer name to list garages: ");
             string name = Console.ReadLine();
-            var result = rest.Get<string>($"/Stat/GetGarageNameByManufacturerName/{name}");
+            var result = rest.Get<string>($"/Stat/GetGarageNameByManufacturerNameStat/{name}");
             foreach (var item in result)
             {
                 Console.WriteLine(item);

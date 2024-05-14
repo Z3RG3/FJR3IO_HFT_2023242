@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FJR3IO_HFT_2023242.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb6f0cd23ed73a87b5eab34651b8de7c2ccf7b5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FJR3IO_HFT_2023242.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FJR3IO_HFT_2023242.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

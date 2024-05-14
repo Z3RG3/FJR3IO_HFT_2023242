@@ -65,7 +65,8 @@ namespace FJR3IO_HFT_2023242.Logic
         {
             return this.repository
                 .ReadAll()
-                .Count(m => m.ManufacturingYear == year);
+                .Where(m => m.ManufacturingYear == year)
+                .Count();
         }
 
         public IEnumerable<string> GetMotorcycleModelByManufacturer(string name)
@@ -87,10 +88,11 @@ namespace FJR3IO_HFT_2023242.Logic
 
         public IEnumerable<string> GetGarageNameByManufacturerName(string name)
         {
-            return this.repository
+            var res = this.repository
                 .ReadAll()
                 .Where(m => m.Manufacturer.ManufacturerName == name)
                 .Select(m => m.Garage.GarageName);
+            return res;
         }
     }
 }

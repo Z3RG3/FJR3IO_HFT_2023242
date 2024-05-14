@@ -5445,19 +5445,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jnssz\\.nuget\\packages\\": {}
+    "C:\\Users\\z3rg3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\FJR3IO_HFT_2023242.Client.csproj",
+      "projectUniqueName": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\FJR3IO_HFT_2023242.Client.csproj",
       "projectName": "FJR3IO_HFT_2023242.Client",
-      "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\FJR3IO_HFT_2023242.Client.csproj",
-      "packagesPath": "C:\\Users\\jnssz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\obj\\",
+      "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\FJR3IO_HFT_2023242.Client.csproj",
+      "packagesPath": "C:\\Users\\z3rg3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jnssz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\z3rg3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5471,8 +5471,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
-              "projectPath": "C:\\Users\\jnssz\\source\\repos\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
+            "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj": {
+              "projectPath": "C:\\Users\\z3rg3\\Documents\\GitHub\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242\\FJR3IO_HFT_2023242.Models\\FJR3IO_HFT_2023242.Models.csproj"
             }
           }
         }
@@ -5481,6 +5481,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5512,7 +5517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
